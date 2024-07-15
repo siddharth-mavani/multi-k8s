@@ -14,6 +14,11 @@ The application consists of the following components:
 4. **Postgres Database:** A Postgres database to store the application data.
 5. **Redis Cache:** A Redis instance used for caching.
 
+
+### Architecture Diagram
+
+![Architecture Diagram](media/arch.jpg)
+
 ### Kubernetes Components
 
 - **Deployments**: Each service (client, server, worker, Postgres, Redis) has its own Kubernetes deployment.
